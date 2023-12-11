@@ -24,6 +24,8 @@ section {
     padding: 0px 10px 10px 10px;
 }
 
+
+
 h2 {
     text-align: center;
 }
@@ -40,12 +42,12 @@ input {
 
 .campo {
     background-color: #94CFCD;
-    /* border: 3px solid #5F2C82;
-    border-left: 50px solid #5F2C82; */
+    border: 3px solid #5F2C82;
+    border-left: 50px solid #5F2C82;
 }
 
 .botoes {
-    border: 1px solid #53AAA7;
+    border: 1px solid #53AAA7 ;
 }
 
 #botaoentrar {

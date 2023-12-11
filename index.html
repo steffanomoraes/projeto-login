@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="estilos/tablets.css">
 </head>
 <body>
     <main>
@@ -14,10 +15,18 @@
             <h2>Login</h2>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.php" method="get">
-                <label for="iemail"></label> <input type="email" name="email" id="iemail" placeholder="seu e-mail" class="campo"> <br>
-                <label for="isenha"></label> <input type="password" name="senha" id="isenha" placeholder="sua senha" class="campo"> <br>
-                <input type="submit" value="Entrar" class="botoes" id="botaoentrar"><br>
-                <input type="button" value="Esqueci a senha" class="botoes" id="botaoesqueci">
+                <p>
+                    <label for="iemail"></label> <input type="email" name="email" id="iemail" placeholder="seu e-mail" class="campo">
+                </p>
+                <p>
+                    <label for="isenha"></label> <input type="password" name="senha" id="isenha" placeholder="sua senha" class="campo">
+                </p>
+                <p>
+                    <input type="submit" value="Entrar" class="botoes" id="botaoentrar">
+                </p>
+                <p>
+                    <input type="button" value="Esqueci a senha" class="botoes" id="botaoesqueci">
+                <p/>
             </form>
         </section>
     </main>
