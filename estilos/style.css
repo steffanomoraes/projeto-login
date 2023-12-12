@@ -14,8 +14,10 @@ img {
 }
 
 main {
+    width: 250px;
     background-color: white;
-    margin: 75px 50px 50px 50px;
+    margin: auto;
+    margin-top: 75px;
     border: 1px solid #5F2C82;
     border-radius: 10px;
 }
@@ -23,8 +25,6 @@ main {
 section {
     padding: 0px 10px 10px 10px;
 }
-
-
 
 h2 {
     text-align: center;
@@ -44,10 +44,12 @@ input {
     background-color: #94CFCD;
     border: 3px solid #5F2C82;
     border-left: 50px solid #5F2C82;
+    width: 157px;
 }
 
 .botoes {
-    border: 1px solid #53AAA7 ;
+    border: 1px solid #53AAA7;
+    width: 100%;
 }
 
 #botaoentrar {
