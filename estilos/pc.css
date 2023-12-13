@@ -2,8 +2,40 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: white;
+}
+
+main {
+    margin-top: 15%;
+    width: 900px;
+    height: 242px;
+    position: relative;
+}
+
+img {
+    display: inline-block;
+    width: 400px;
+    height: 242px;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    left: 77.9%;
+    top: 50%;
+}
+
+section {
+    display: inline-block;
+    width: 400px;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    left: 27%;
+    top: 50%;
 }
