@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    width: 950px;
+    width: 75vw;
     height: 350px;
 
     position: absolute;
@@ -54,5 +54,5 @@ section {
     background-color: #94CFCD;
     border: 3px solid #5F2C82;
     border-left: 50px solid #5F2C82;
-    width: 392px;
+    width: 75%;
 }
