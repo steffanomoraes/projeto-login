@@ -22,7 +22,7 @@ main {
     transform: translate(-50%, -50%);
 
     left: 50%;
-    top: 50%;
+    top: 43%;
 }
 
 img {
@@ -33,10 +33,10 @@ img {
     position: absolute;
     transform: translate(-50%, -50%);
 
-    left: 75%;
+    left: 25%;
     top: 50%;
 
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 8px 0px 0px 8px;
 }
 
 section {
@@ -46,7 +46,7 @@ section {
     position: absolute;
     transform: translate(-50%, -50%);
 
-    left: 25%;
+    left: 75%;
     top: 50%;
 }
 
