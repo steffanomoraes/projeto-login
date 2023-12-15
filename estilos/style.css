@@ -4,13 +4,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body, html {
     background-color: #5F2C82;
+    width: 100vw;
+    height: 100vh;
 }
 
-img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
+#imagem {
+    background: black url(../imagens/fundo-login.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 200px;
 }
 
 main {
@@ -20,6 +23,8 @@ main {
     margin-top: 75px;
     border: 1px solid #5F2C82;
     border-radius: 10px;
+
+    overflow: hidden;
 }
 
 section {
