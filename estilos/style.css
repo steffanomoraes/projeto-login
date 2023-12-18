@@ -10,12 +10,6 @@ body, html {
     height: 100vh;
 }
 
-#imagem {
-    background: black url(../imagens/fundo-login.jpg) center center no-repeat fixed;
-    background-size: cover;
-    height: 200px;
-}
-
 main {
     width: 250px;
     background-color: white;
@@ -27,7 +21,15 @@ main {
     overflow: hidden;
 }
 
+
+#imagem {
+    display: block;
+    background: black url(../imagens/fundo-login.jpg) center center no-repeat fixed;
+    height: 200px;
+}
+
 section {
+    display: block;
     padding: 0px 10px 10px 10px;
 }
 
