@@ -11,7 +11,7 @@ body, html {
 }
 
 main {
-    width: 250px;
+    width: 280px;
     background-color: white;
     margin: auto;
     margin-top: 75px;
@@ -38,36 +38,4 @@ section {
 
 h2 {
     text-align: center;
-}
-
-p {
-    font-size: 12px;
-}
-
-input {
-    margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 10px;
-} 
-
-.campo {
-    background-color: #94CFCD;
-    border: 3px solid #5F2C82;
-    border-left: 50px solid #5F2C82;
-    width: 157px;
-}
-
-.botoes {
-    border: 1px solid #53AAA7;
-    width: 100%;
-}
-
-#botaoentrar {
-    background-color: #53AAA7;
-    color: white;
-}
-
-#botaoesqueci {
-    color: #2D6462;
-    background: white;
 }
