@@ -67,10 +67,29 @@ form > div#botaoesqueci > a {
 }
 
 .campo {
+    background-color: #5F2C82;
     width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
 
 label {
-    display: block;
-    
+    display: none;
+}
+
+form > div > span {
+    color: white;
+    padding: 5px;
+}
+
+.digitacao {
+    background-color: #94CFCD;
+    font-size: 1em;
+    border-radius: 5px;
+    width: calc(100% - 50px);
+    transform: translateY(-4px);
+    padding: 4px;
+    border: 0px;
+    height: 60%;
 }
